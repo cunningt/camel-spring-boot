@@ -185,6 +185,11 @@ public class BomDependenciesGeneratorMojo extends AbstractMojo {
                 dep.setType("pom");
             }
 
+            // Use camelCommunityVersion for any camel maven plugins
+            if (dep.getGroupId().equals("org.apache.camel") && dep.getArtifactId().startsWith("camel") && dep.getArtifactId().endsWith("maven-plugin")) {
+                dep.setVersion(camelCommunityVersion);
+            }
+
             // skip test-jars
             boolean testJar = dep.getType() != null && dep.getType().equals("test-jar");
             boolean sourcesJar = dep.getClassifier() != null && dep.getClassifier().equals("sources");
