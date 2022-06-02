@@ -29,13 +29,13 @@
             <id>it</id>
             <repositories>
                 <repository>
-                    <id>apache-snapshot-repository</id>
-                    <url>http://repository.apache.org/snapshots/</url>
+                    <id>fuse-mirror-repository</id>
+                    <url>https://fuse-build-repository.fusesource-jenkins.hosted.psi.rdu2.redhat.com/repository/maven-public/</url>
                     <releases>
-                        <enabled>false</enabled>
+                        <enabled>true</enabled>
                     </releases>
                     <snapshots>
-                        <enabled>true</enabled>
+                        <enabled>false</enabled>
                     </snapshots>
                 </repository>
             </repositories>
