@@ -35,6 +35,7 @@ public class CamelHdfsTest extends AbstractSpringBootTestSupport {
     public static ITestConfig createTestConfig() {
         return new ITestConfigBuilder()
                 .module(inferModuleName(CamelHdfsTest.class))
+		.exclusion("org.slf4j:slf4j-reload4j")
                 .build();
     }
 
