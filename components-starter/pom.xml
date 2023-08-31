@@ -196,7 +196,7 @@
     <!-- <module>camel-debug-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-digitalocean-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-direct-starter</module>
-    <module>camel-directvm-starter</module>
+    <!--<module>camel-directvm-starter</module>-->
     <!-- <module>camel-disruptor-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-djl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-dns-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -429,7 +429,7 @@
     <!-- <module>camel-vertx-kafka-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-vertx-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-vertx-websocket-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <module>camel-vm-starter</module>
+    <!-- <module>camel-vm-starter</module> -->
     <!-- <module>camel-weather-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-web3j-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-webhook-starter</module>
